@@ -50,7 +50,7 @@ if %errorlevel% equ 0 (
     choice /c:YN /n /m "? open built calculator app? (Y/n)"
     if %errorlevel% neq 2 (
         echo Opening...
-        python dist/calculator.exe
+        start dist/calculator.exe
     )
 ) else (
     echo.
