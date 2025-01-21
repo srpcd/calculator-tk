@@ -1,7 +1,7 @@
 import tkinter as tk
 import string
 from tkinter import messagebox
-from utilities import left_chars_strip
+from src.utilities import left_chars_strip
 
 
 class Calculation:

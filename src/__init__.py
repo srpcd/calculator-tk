@@ -3,10 +3,10 @@ import winreg
 import sys
 import os
 from tkinter import ttk, messagebox
-from operations import Calculation
-from settings.datastore import CalculatorDataStore, CalculatorRegDataStore
-from settings import CalculatorSettings
-from utilities import ThemedMenubar, WindowsTitlebar, ThemedMenu
+from src.operations import Calculation
+from src.settings.datastore import CalculatorDataStore, CalculatorRegDataStore
+from src.settings import CalculatorSettings
+from src.utilities import ThemedMenubar, WindowsTitlebar, ThemedMenu
 
 
 # noinspection PyMethodFirstArgAssignment

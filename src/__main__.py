@@ -1,4 +1,4 @@
-from __init__ import CalculatorTk
+from src.__init__ import CalculatorTk
         
         
 if __name__ == '__main__':

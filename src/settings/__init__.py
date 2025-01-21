@@ -9,7 +9,7 @@ import sys
 import os
 from tkinter import ttk, messagebox, filedialog
 from PIL import Image, ImageTk
-from utilities import ThemedMenubar, WindowsTitlebar, ThemedMenu, wait_for_file
+from src.utilities import ThemedMenubar, WindowsTitlebar, ThemedMenu, wait_for_file
 
 
 # noinspection PyTypeChecker
