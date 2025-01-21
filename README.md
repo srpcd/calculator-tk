@@ -7,7 +7,7 @@
 <br>
 
 # Announcements
-   ### Version v1.10
+   ### Version v1.0.0
    - Added basic operations and numbers.<br><br>
      - Operations: Plus(+), Minus(-), Multiply(x), Divide(÷), Modulus(%), FloorDivision(//), Power(^)
      - Parenthesis: Open "(", Close ")"
