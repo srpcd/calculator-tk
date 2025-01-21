@@ -48,9 +48,9 @@ python builder.py
 if %errorlevel% equ 0 (
     echo Thank you for building our app!
     choice /c:YN /n /m "? open built calculator app? (Y/n)"
-    if %errorlevel% equ 1 (
+    if %errorlevel% neq 2 (
         echo Opening...
-        start dist/calculator.exe
+        start dist\calculator.exe
     ) else (
         echo Exiting...
         timeout /t 1 /NOBREAK >nul
