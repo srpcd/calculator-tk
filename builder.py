@@ -112,12 +112,11 @@ class Build(MakeEnv):
         os.remove(os.path.join(self.build_dir, 'upx.zip'))
 
     def compile(self):
-        # self.get_src()
+        self.get_src()
         self.get_pyinstaller()
         self.get_upx()
         command = ['pyinstaller', '--workpath', f'"{self.work_dir}"', '--distpath', f'"{self.dist_dir}"',
-                   '--upx-dir', 'build\\upx', '--log-level=DEBUG', '--clean', f'src\\metadata\\main.spec']
-        # '--upx-dir', 'build\\upx', '--log-level=DEBUG', '--clean', f'{self.build_dir}\\src\\metadata\\main.spec']
+                   '--upx-dir', 'build\\upx', '--log-level=DEBUG', '--clean', f'{self.build_dir}\\src\\metadata\\main.spec']
         subprocess.run(' '.join(command))
 
         return self
