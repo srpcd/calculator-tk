@@ -40,8 +40,8 @@
         - Displays the following:<br><br>
             Calculator - Version v1.0.0<br>
             Coded and published by SrpCD.<br><br>
-            Python Version: (Your Python Version) x(Archiecture)<br>
-            Tkinter Version: (Your Tkinter Version)
+            Python Version: (Python Version) x(Archiecture)<br>
+            Tkinter Version: (Tkinter Version)
 <br>
 
 # Install
